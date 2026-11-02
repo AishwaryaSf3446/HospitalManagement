@@ -1,0 +1,99 @@
+.billing-finance {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.billing-intro,
+.billing-pivot {
+  background: #fff;
+  border: 1px solid #e6e9ef;
+  border-radius: 8px;
+}
+
+.billing-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 22px;
+}
+
+.billing-intro h2 {
+  margin-bottom: 4px;
+  color: #1a1a2e;
+  font-size: 1.2rem;
+}
+
+.billing-intro p,
+.billing-data-note {
+  color: #667085;
+  line-height: 1.5;
+}
+
+.billing-data-note {
+  flex-shrink: 0;
+  font-size: 0.875rem;
+}
+
+.billing-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.billing-summary article {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 20px;
+  background: #fff;
+  border: 1px solid #e6e9ef;
+  border-radius: 8px;
+}
+
+.billing-summary article span {
+  color: #667085;
+  font-size: 0.875rem;
+}
+
+.billing-summary article strong {
+  color: #1a1a2e;
+  font-size: 1.35rem;
+}
+
+.billing-summary article:last-child strong {
+  color: #b54708;
+}
+
+.billing-pivot {
+  overflow: hidden;
+}
+
+.billing-pivot .e-pivotview {
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .billing-intro {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .billing-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .billing-summary article {
+    padding: 14px 16px;
+  }
+
+  .billing-pivot .e-pivotview {
+    min-width: 720px;
+  }
+
+  .billing-pivot {
+    overflow-x: auto;
+  }
+}

@@ -1,0 +1,73 @@
+.doctor-scheduling {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.schedule-overview,
+.doctor-calendar {
+  background: #fff;
+  border: 1px solid #e6e9ef;
+  border-radius: 8px;
+}
+
+.schedule-overview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 22px;
+}
+
+.schedule-overview h2 {
+  margin-bottom: 4px;
+  color: #1a1a2e;
+  font-size: 1.2rem;
+}
+
+.schedule-overview p {
+  color: #667085;
+  line-height: 1.5;
+}
+
+.schedule-overview-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.schedule-overview-stats span {
+  padding: 8px 12px;
+  color: #475467;
+  background: #f5f7fa;
+  border-radius: 6px;
+  font-size: 0.875rem;
+}
+
+.schedule-overview-stats strong {
+  color: #1a1a2e;
+}
+
+.doctor-calendar {
+  overflow: hidden;
+}
+
+.doctor-calendar .e-schedule {
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .schedule-overview {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .doctor-calendar .e-schedule {
+    min-width: 720px;
+  }
+
+  .doctor-calendar {
+    overflow-x: auto;
+  }
+}

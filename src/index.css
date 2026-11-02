@@ -1,0 +1,111 @@
+@import "../node_modules/@syncfusion/ej2-material3-theme/styles/grid/index.css";
+@import '../node_modules/@syncfusion/ej2-material3-theme/styles/gantt/index.css';
+@import '../node_modules/@syncfusion/ej2-material3-theme/styles/schedule/index.css';
+@import '../node_modules/@syncfusion/ej2-material3-theme/styles/rich-text-editor/index.css';
+@import '../node_modules/@syncfusion/ej2-material3-theme/styles/pivotview/index.css';
+@import '../node_modules/@syncfusion/ej2-material3-theme/styles/pivotfieldlist/index.css';
+@import '../node_modules/@syncfusion/ej2-material3-theme/styles/spreadsheet/index.css';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Global Syncfusion overrides */
+.e-grid {
+  border-radius: 8px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: white;
+}
+
+.e-grid .e-gridheader {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.e-grid .e-headercell {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.e-grid .e-row:hover {
+  background-color: #f0f4ff;
+}
+
+.e-grid .e-row.e-selectionbackground {
+  background-color: #e8ebf8;
+}
+
+/* Toolbar styling */
+.e-toolbar {
+  border-radius: 8px 8px 0 0;
+}
+
+/* Button styling */
+.e-btn {
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.e-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Status badges */
+.status-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-active {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-inactive {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status-pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+/* Priority badges */
+.priority-high {
+  color: #dc3545;
+  font-weight: 700;
+}
+
+.priority-medium {
+  color: #ffc107;
+  font-weight: 600;
+}
+
+.priority-low {
+  color: #28a745;
+  font-weight: 500;
+}

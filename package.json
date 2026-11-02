@@ -1,0 +1,50 @@
+{
+  "name": "syncfusion-webmcp-showcase",
+  "version": "3.0.0",
+  "description": "Complete Syncfusion webMCP Components Showcase - 12 Major Components with Dedicated Views",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-base": "35.1.42",
+    "@syncfusion/ej2-calendars": "^25.1.35",
+    "@syncfusion/ej2-charts": "^35.1.42",
+    "@syncfusion/ej2-diagrams": "^25.1.35",
+    "@syncfusion/ej2-gantt": "^35.1.41",
+    "@syncfusion/ej2-grids": "^35.1.42",
+    "@syncfusion/ej2-material3-theme": "^35.1.42",
+    "@syncfusion/ej2-pdfviewer": "^25.1.35",
+    "@syncfusion/ej2-pivotview": "^35.1.39",
+    "@syncfusion/ej2-react-buttons": "^25.1.35",
+    "@syncfusion/ej2-react-calendars": "^25.1.35",
+    "@syncfusion/ej2-react-charts": "^35.1.42",
+    "@syncfusion/ej2-react-diagrams": "^25.1.35",
+    "@syncfusion/ej2-react-dropdowns": "^25.1.35",
+    "@syncfusion/ej2-react-gantt": "^35.1.41",
+    "@syncfusion/ej2-react-grids": "^35.1.42",
+    "@syncfusion/ej2-react-inputs": "^25.1.35",
+    "@syncfusion/ej2-react-pdfviewer": "^25.1.35",
+    "@syncfusion/ej2-react-pivotview": "^35.1.39",
+    "@syncfusion/ej2-react-popups": "^25.1.35",
+    "@syncfusion/ej2-react-richtexteditor": "^35.1.42",
+    "@syncfusion/ej2-react-schedule": "^35.1.42",
+    "@syncfusion/ej2-react-spreadsheet": "^35.1.42",
+    "@syncfusion/ej2-richtexteditor": "^35.1.42",
+    "@syncfusion/ej2-schedule": "^35.1.42",
+    "@syncfusion/ej2-spreadsheet": "^35.1.42",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.50.0",
+    "eslint-plugin-react": "^7.33.0",
+    "vite": "^4.5.0"
+  }
+}

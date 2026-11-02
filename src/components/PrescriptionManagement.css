@@ -1,0 +1,61 @@
+.prescription-management {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.prescription-intro,
+.prescription-workbook {
+  background: #fff;
+  border: 1px solid #e6e9ef;
+  border-radius: 8px;
+}
+
+.prescription-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 22px;
+}
+
+.prescription-intro h2 {
+  margin-bottom: 4px;
+  color: #1a1a2e;
+  font-size: 1.2rem;
+}
+
+.prescription-intro p,
+.prescription-data-note {
+  color: #667085;
+  line-height: 1.5;
+}
+
+.prescription-data-note {
+  flex-shrink: 0;
+  font-size: 0.875rem;
+}
+
+.prescription-workbook {
+  overflow: hidden;
+}
+
+.prescription-workbook .e-spreadsheet {
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .prescription-intro {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .prescription-workbook {
+    overflow-x: auto;
+  }
+
+  .prescription-workbook .e-spreadsheet {
+    min-width: 760px;
+  }
+}
